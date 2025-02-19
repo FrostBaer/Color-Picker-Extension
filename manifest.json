@@ -5,5 +5,20 @@
     "description": "A simple color picker extension",
     "icons": {
         "48": "images/icon-48.png"
-    }
+    },
+    "background": {
+        "service_worker": "service-worker.js",
+        "type": "module"
+    },
+    "action": {
+
+    }, 
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "*://www.notion.com/*",
+        "*://www.notion.so/*",
+        "*://example.com/*"
+    ]
 }
