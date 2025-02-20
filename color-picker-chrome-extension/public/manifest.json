@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Derpy Cat",
+    "description": "A Simple Color Picker for Notion",
+    "icons":{
+        "48": "icon48.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "host_permission": [
+        "*://www.notion.com/*",
+        "*://www.notion.so/*",
+        "*://example.com/*"
+    ]
+}

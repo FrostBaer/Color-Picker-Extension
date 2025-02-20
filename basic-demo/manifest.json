@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "My Color Picker Extension",
+    "name": "Derpy Cat",
     "version": "1.0.0",
     "description": "A simple color picker extension",
     "icons": {
@@ -11,7 +11,7 @@
         "type": "module"
     },
     "action": {
-
+        "default_popup": "index.html"
     }, 
     "permissions": [
         "scripting"
